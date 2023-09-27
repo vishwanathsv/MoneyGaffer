@@ -1,0 +1,46 @@
+/* src/components/RecordsPage.css */
+.records-page {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px; /* Makes the button oval-shaped */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for the buttons (optional) */
+/* You can customize these styles further to match your design preferences */
+
+.button.expense {
+  background-color: #ff5733;
+}
+
+.button.income {
+  background-color: #4caf50;
+}
+
+/* You can add more specific styles for different types of buttons */
